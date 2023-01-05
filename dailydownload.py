@@ -14,7 +14,7 @@ def path_to_image_html(path):
     
 def open_in_browser(fname):
     new = 2 # open in a new tab, if possible
-    url = r"C:\Users\alexb\OneDrive\Documents\Python Scripts\{}".format(fname+'_.html')
+    url = r"C:\Users\______\OneDrive\Documents\Python Scripts\{}".format(fname+'_.html')
     webbrowser.open(url,new=new)
 
 def listitems(url,container,item1,item2,item3):
